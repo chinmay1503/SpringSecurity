@@ -5,7 +5,7 @@ A Basic Spring Security Project that helps one to understand and learn the conce
 I Have also included the dump of the database file which can be easily imported in your ORACLE database
 using the following command :
 
-CREATE OR REPLACE DIRECTORY datapump AS 'F:\Scripts';
+CREATE OR REPLACE DIRECTORY datapump AS '{Full Directory Path}'; eg 'C:\Scripts'
 
 GRANT READ, WRITE ON DIRECTORY datapump TO {DbName};
  
