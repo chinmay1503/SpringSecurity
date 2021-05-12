@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <properties>
-    <springsecurity.version>5.2.2.RELEASE</springsecurity.version>
+    <springsecurity.version>5.2.10.RELEASE</springsecurity.version>
     </properties>
 
 
@@ -79,7 +79,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>${springsecurity.version} </version>
+            <version>${springsecurity.version}</version>
         </dependency>
 
         <dependency>
